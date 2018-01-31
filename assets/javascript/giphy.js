@@ -3,7 +3,7 @@
 // giphy key: kOMuttZ6thiNidL3AgPUWlCORk0sII6L
 var APIKey = "kOMuttZ6thiNidL3AgPUWlCORk0sII6L";
 var searchLimit = 12; //<== max 20 for giphy
-var buttonList = ["Superman", "Batman", "Wonder Woman", "Aquaman"]
+var buttonList = ["Superman", "Batman", "Wonder Woman", "Aquaman", "The Flash"]
 
 function displayButtons() {
 	//clear previous buttons
