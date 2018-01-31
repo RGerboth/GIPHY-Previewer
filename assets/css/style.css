@@ -1,0 +1,21 @@
+#images {
+	margin-top: 20px;
+	/*padding: 20px;*/
+	border: 2px darkgray solid;
+	
+}
+
+.image {
+	max-width: 200px;
+}
+
+.btn {
+	margin: 5px;
+}
+
+.imageBox {
+	width: 200px;
+	height: 200px;
+	float: left;
+	margin: 20px;
+}
