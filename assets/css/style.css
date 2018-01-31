@@ -1,8 +1,18 @@
+body {
+	background-image: url("../images/brick-wall.jpeg");
+	/*font-family: 'comic sans';*/
+}
+
 #images {
 	margin-top: 20px;
 	/*padding: 20px;*/
-	border: 2px darkgray solid;
+	/*border: 2px darkgray solid;*/
 	
+}
+
+#entryFormPanel {
+	margin-top: 40px;
+
 }
 
 .image {
@@ -13,9 +23,21 @@
 	margin: 5px;
 }
 
+p {
+	background-color: lightgray;
+	font-size: 24px;
+	margin-bottom: 0px;
+
+	}	
+
 .imageBox {
 	width: 200px;
 	height: 200px;
 	float: left;
 	margin: 20px;
+}
+
+#warmWelcome {
+	font-size: 36px;
+	color: darkblue;
 }

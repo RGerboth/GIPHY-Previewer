@@ -70,11 +70,11 @@ $("#buttons").on("click", ".btn", fetchImages);
 $("#add-button").on("click", function(event) {
 	event.preventDefault();
 	var newButtonValue = $("#button-input").val();
-	console.log("New Button: " + newButtonValue)
-	buttonList.push(newButtonValue);
-	console.log("All buttons: " + buttonList.toString());
-    $("#button-input").val("");
-	displayButtons();
+	if (newButtonValue !== "") {
+		buttonList.push(newButtonValue);
+	    $("#button-input").val("");
+		displayButtons();
+	}
 });
 
 $(document).on("click", ".image", function(event) {
